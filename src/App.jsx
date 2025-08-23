@@ -1,6 +1,13 @@
+import Saludo from "./components/Saludo";
+
 function App() {
 
-  return <div></div>
+  return (
+    <div>
+      <Saludo nombre="My friends" />
+    </div>
+    
+  )
       
 }
 
